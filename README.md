@@ -7,7 +7,7 @@ e usuários poderão entrar em contato com essas ONGs para ajudar
 de alguma forma. isso através de um aplicativo mobile.
 
 ## Tecnologias utilizadas
- - NodeJs
+ - Node
  - React
  - React Native
 
