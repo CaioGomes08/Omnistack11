@@ -16,6 +16,7 @@ module.exports = {
                 'ongs.name',
                 'ongs.email',
                 'ongs.whatsapp',
+                'ongs.city',
                 'ongs.uf']);
 
         // recuperando o total de registro no cabeçalho da response
