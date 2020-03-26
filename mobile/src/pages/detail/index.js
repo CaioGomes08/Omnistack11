@@ -14,7 +14,7 @@ export default function Detail() {
     const navigation = useNavigation();
     const route = useRoute();
     const incident = route.params.incident;
-    
+
     const message = `Olá ${incident.name}, estou entrando em contato pois gostaria de ajudar no caso ${incident.title} com o valor de ${Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(incident.value)}`;
 
     function navigateBack() {
@@ -22,7 +22,7 @@ export default function Detail() {
     }
 
     function sendMail() {
-        
+
 
         MailComposer.composeAsync({
             subject: `Herói do caso: ${incident.title}`,
@@ -49,6 +49,9 @@ export default function Detail() {
 
                 <Text style={styles.incidentProperty}>CASO: </Text>
                 <Text style={styles.incidentValue}>{incident.title}</Text>
+
+                <Text style={styles.incidentProperty}>DESCRIÇÃO: </Text>
+                <Text style={styles.incidentValue}>{incident.description}</Text>
 
                 <Text style={styles.incidentProperty}>VALOR: </Text>
                 <Text style={styles.incidentValue}>
