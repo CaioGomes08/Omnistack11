@@ -56,6 +56,14 @@
     padding: 24px;
     border-radius: 8px;
     position: relative;
+    border: 1px solid #dcdce6;
+    transition: border-color 0.2s;
+    
+}
+
+.profile-container ul li:hover {
+    border-color: #e02041;
+    opacity: 0.8;
 }
 
 .profile-container ul li button {
