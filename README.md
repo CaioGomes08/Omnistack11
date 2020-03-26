@@ -1,6 +1,6 @@
 # Be The Hero
 O projeto Be The Hero é um projeto onde ONG podem se cadastrar e compartilhar
-casos sobre seus Pets. por exemplo um animalzinho que necessita de cirurgia, 
+casos que precisam de ajuda. por exemplo um animalzinho que necessita de cirurgia, 
 remédios, ração etc. 
 A ONG pode publicar estes casos através de uma plataforma WEB 
 e usuários poderão entrar em contato com essas ONGs para ajudar 
